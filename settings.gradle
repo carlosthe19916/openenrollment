@@ -1,0 +1,11 @@
+include 'common'
+include 'core'
+include 'server-spi'
+include 'model'
+include 'services'
+
+project(':common').name = 'openenrollment-common'
+project(':core').name = 'openenrollment-core'
+project(':server-spi').name = 'openenrollment-server-spi'
+project(':model').name = 'openenrollment-model'
+project(':services').name = 'openenrollment-services'
